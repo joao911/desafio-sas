@@ -1,9 +1,12 @@
 import React from 'react';
 import './buttom.scss';
 
-const Buttom: React.FC = () => {
+interface Props{
+  name: string;
+}
+const Buttom: React.FC<Props> = ({name}) => {
   return (
-    <button>História</button>
+  <button>{name}</button>
   );
 }
 

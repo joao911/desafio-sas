@@ -8,8 +8,18 @@ const Landing: React.FC = () => {
     <div>
       <Header />
       <main>
-        <Button />
+        <p>Categorias</p>
+        <Button
+        name="história"
+        />
+        <Button name="História"/>
+        <Button name="Geografia" />
+        <Button name="Mitologia" />
+        <Button name="Esportes" />
+        <Button name="Política"/>
+        <Button name="Conhecimentos gerais"/>
       </main>
+      
     </div>
   );
 }

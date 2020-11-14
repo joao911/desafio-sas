@@ -1,0 +1,20 @@
+div {
+  background-color: #ffffff;
+  border: 3px solid #32cb82;
+  box-sizing: border-box;
+  box-shadow: 0px 3px 6px rgba(52, 60, 88, 0.4);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #343C58;
+  }
+}
