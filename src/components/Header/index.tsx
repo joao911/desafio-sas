@@ -1,11 +1,13 @@
 import React from 'react';
 
 import './header.scss'
-
-const Header: React.FC = () => {
+interface Props{
+  name: string;
+}
+const Header: React.FC<Props> = ({name}) => {
   return (
       <header>
-          <h1>Dev Mobile</h1>
+          <h1>{name}</h1>
       </header>
   );
 }
