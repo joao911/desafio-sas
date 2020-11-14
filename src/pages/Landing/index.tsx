@@ -6,18 +6,18 @@ import './landing.scss';
 const Landing: React.FC = () => {
   return (
     <div>
-      <Header />
+      <Header name="Dev Mobile"/>
       <main>
         <p>Categorias</p>
-        <Button
-        name="história"
-        />
+        <Button name="história" />
         <Button name="História"/>
         <Button name="Geografia" />
         <Button name="Mitologia" />
         <Button name="Esportes" />
         <Button name="Política"/>
         <Button name="Conhecimentos gerais"/>
+        
+        
       </main>
       
     </div>

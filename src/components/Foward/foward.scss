@@ -1,0 +1,27 @@
+.foward {
+  width: 320px;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  button {
+    width: 237px;
+    height: 47.76px;
+    background: #4d8af0;
+    border-radius: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    img{
+        width: 7px;
+        height: 14px;
+    }
+  }
+}
