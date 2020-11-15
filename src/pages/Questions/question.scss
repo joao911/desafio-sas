@@ -1,11 +1,24 @@
 .question {
   main {
+    width: 320px;
+    height: 682px;
     .level {
-      width: 320px;
-      height: 682px;
-     .middle{
-       background-color:#343C58;
-     }
+      height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      .middle {
+        width: 86px;
+        height: 20px;
+        background-image: url(./img/Rectangle.png);
+        border-radius: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p {
+          color: #343c58;
+        }
+      }
     }
   }
 }

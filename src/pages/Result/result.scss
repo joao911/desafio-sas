@@ -1,0 +1,38 @@
+.result {
+  height: 682px;
+  main {
+    max-width: 500px;
+    margin: 0 auto 0 auto;
+    height: 682px;
+    background-color: #ffffff;
+    position: relative;
+    img {
+      width: 100%;
+    }
+    .results {
+      width: 199px;
+      height: 57px;
+      margin: 0 auto;
+     background: #343c58;
+      opacity: 0.08;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      .hits {
+        h1 {
+          margin: 0;
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 28px;
+          line-height: 33px;
+          color: #343c58;;
+        }
+        p {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
