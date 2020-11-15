@@ -3,7 +3,11 @@ import { motion } from 'framer-motion';
 
 import './header.scss'
 
-const Header: React.FC = () => {
+interface HeaderProps {
+  name?: string;
+}
+
+const Header: React.FC<HeaderProps> = ({ name = "Dev Mobile" }) => {
   return (
       <motion.header
         initial={{
@@ -15,7 +19,7 @@ const Header: React.FC = () => {
           opacity: 1,
         }}
       >
-          <h1>Dev Mobile</h1>
+          <h1>{name}</h1>
       </motion.header>
   );
 }
