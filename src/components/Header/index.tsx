@@ -1,14 +1,26 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 import './header.scss'
-interface Props{
-  name: string;
+
+interface HeaderProps {
+  name?: string;
 }
-const Header: React.FC<Props> = ({name}) => {
+
+const Header: React.FC<HeaderProps> = ({ name = "Dev Mobile" }) => {
   return (
-      <header>
+      <motion.header
+        initial={{
+          translateY: -20,
+          opacity: 0,
+        }}
+        animate={{
+          translateY: 0,
+          opacity: 1,
+        }}
+      >
           <h1>{name}</h1>
-      </header>
+      </motion.header>
   );
 }
 
